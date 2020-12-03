@@ -1,0 +1,63 @@
+body {
+    font-family: Lato;
+    color: #606060;
+}
+
+.row-padding {
+   padding: 100px 0px; 
+}
+
+.no-margin {
+    margin: 0px;
+}
+.home-weedid {
+    margin-top: 150px;
+}
+
+.home-weedid h1 {
+    font-weight: 30;
+    letter-spacing: 2px;
+}
+
+.home-weedid h4 {
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+a.btn {
+    background: blue;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px ;
+    padding: 7px 19px;
+
+}
+
+a.btn:hover {
+    background: skyblue;
+    color: white;
+}
+
+.showcase {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.showcase img {
+    width: 85%;
+}
+
+h5.quote {
+    font-size: 23px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+h6.penulis {
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
