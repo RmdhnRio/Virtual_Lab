@@ -183,19 +183,19 @@
                     <div class="row card-group-row">
 
                         <div class="col-md col-sm col card-group-row__col ">
-                            <img src="assets/images/vl_logo/partners/bl_logo.png" alt="" class="img-fluid">
+                            <img src="{{asset('assets/images/vl_logo/partners/bl_logo.png')}}" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md col-sm col card-group-row__col ">
-                            <img src="assets/images/vl_logo/partners/traveloka_logo.png" alt="" class="img-fluid">
+                            <img src="{{asset('assets/images/vl_logo/partners/traveloka_logo.png')}}" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md col-sm col card-group-row__col ">
-                            <img src="assets/images/vl_logo/partners/ui_logo.png" alt="" class="img-fluid">
+                            <img src="{{asset('assets/images/vl_logo/partners/ui_logo.png')}}" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-md col-sm col card-group-row__col ">
-                            <img src="assets/images/vl_logo/partners/unj_logo.png" alt="" class="img-fluid">
+                            <img src="{{asset('assets/images/vl_logo/partners/unj_logo.png')}}" alt="" class="img-fluid">
                         </div>
 
                     </div>

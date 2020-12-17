@@ -25,6 +25,6 @@ Route::get('/landing-2', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
-Route::get('/courses', function () {
+Route::get('/laboratory', function () {
     return view('courses');
 });

@@ -276,7 +276,7 @@
             
             
                                 <li class="sidebar-menu-item {{ (request()->is('dashboard')) ? 'active' : '' }}">
-                                    <a class="sidebar-menu-button" href="fixed-index.html">
+                                    <a class="sidebar-menu-button" href="{{'/dashboard'}}">
                                         <svg width="24px" height="24px" viewBox="0 0 16 16" class="bi bi-pie-chart-fill sidebar-menu-icon sidebar-menu-icon--left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778l-5.5 5.5zM8.5.015V7.5h7.485A8.001 8.001 0 0 0 8.5.015z"/>
                                         </svg>
@@ -284,42 +284,42 @@
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item {{ (request()->is('laboratory')) ? 'active' : '' }}">
-                                    <a class="sidebar-menu-button" href="fixed-courses.html">
+                                    <a class="sidebar-menu-button" href="{{'/laboratory'}}">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">local_library</span>
                                         <span class="sidebar-menu-text">Laboratory</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item {{ (request()->is('research')) ? 'active' : '' }}">
-                                    <a class="sidebar-menu-button" href="fixed-paths.html">
+                                    <a class="sidebar-menu-button" href="{{'/research'}}">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">poll</span>
                                         <span class="sidebar-menu-text">Research</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item {{ (request()->is('event')) ? 'active' : '' }}">
-                                    <a class="sidebar-menu-button" href="#event.html">
+                                    <a class="sidebar-menu-button" href="{{'/event'}}">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people_outline</span>
                                         <span class="sidebar-menu-text">Event</span>
                                     </a>
                                 <li class="sidebar-menu-item {{ (request()->is('profile')) ? 'active' : '' }}">
-                                    <a class="sidebar-menu-button" href="fixed-student-dashboard.html">
+                                    <a class="sidebar-menu-button" href="{{'/profile'}}">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">account_box</span>
                                         <span class="sidebar-menu-text">My Profile</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item {{ (request()->is('certificate')) ? 'active' : '' }}">
-                                    <a class="sidebar-menu-button" href="#certificate.html">
+                                    <a class="sidebar-menu-button" href="{{'/certificate'}}">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">assignment_turned_in</span>
                                         <span class="sidebar-menu-text">My Certificate</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item {{ (request()->is('subscription')) ? 'active' : '' }}">
-                                    <a class="sidebar-menu-button" href="#subscribed.html">
+                                    <a class="sidebar-menu-button" href="{{'/subscription'}}">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">tune</span>
                                         <span class="sidebar-menu-text">Subscription</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item {{ (request()->is('about')) ? 'active' : '' }}">
-                                    <a class="sidebar-menu-button" href="fixed-student-path.html">
+                                    <a class="sidebar-menu-button" href="{{'/about'}}">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">help</span>
                                         <span class="sidebar-menu-text">About Us</span>
                                     </a>
