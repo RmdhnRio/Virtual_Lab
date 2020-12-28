@@ -28,3 +28,21 @@ Route::get('/dashboard', function () {
 Route::get('/laboratory', function () {
     return view('courses');
 });
+
+
+
+Route::get('/event', function () {
+    return view('event.event');
+});
+
+Route::get('/event-detail', function () {
+    return view('event.event-detail');
+});
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+Route::get('/subscription', function () {
+    return view('subscription');
+});

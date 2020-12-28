@@ -64,7 +64,7 @@
 
 
                 <div class="navbar navbar-expand-lg navbar-dark-dodger-blue bg-transparent will-fade-background" id="default-navbar" data-primary>
-                    
+
                     <!-- Navbar toggler -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="material-icons">short_text</span>
@@ -131,10 +131,10 @@
 
 
 
-                @yield('content')
+            @yield('content')
 
 
-            
+
 
         </div>
         <!-- // END Header Layout Content -->
@@ -163,48 +163,48 @@
 
 
     <!-- jQuery -->
-    <script src="assets/vendor/jquery.min.js"></script>
+    <script src="{{asset('assets/vendor/jquery.min.js')}}"></script>
 
     <!-- Bootstrap -->
-    <script src="assets/vendor/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap.min.js"></script>
+    <script src="{{asset('assets/vendor/popper.min.js')}}"></script>
+    <script src="{{asset('assets/vendor/bootstrap.min.js')}}"></script>
 
     <!-- Perfect Scrollbar -->
-    <script src="assets/vendor/perfect-scrollbar.min.js"></script>
+    <script src="{{asset('assets/vendor/perfect-scrollbar.min.js')}}"></script>
 
     <!-- DOM Factory -->
-    <script src="assets/vendor/dom-factory.js"></script>
+    <script src="{{asset('assets/vendor/dom-factory.js')}}"></script>
 
     <!-- MDK -->
-    <script src="assets/vendor/material-design-kit.js"></script>
+    <script src="{{asset('assets/vendor/material-design-kit.js')}}"></script>
 
     <!-- Fix Footer -->
-    <script src="assets/vendor/fix-footer.js"></script>
+    <script src="{{asset('assets/vendor/fix-footer.js')}}"></script>
 
     <!-- App JS -->
-    <script src="assets/js/app.js"></script>
+    <script src="{{asset('assets/js/app.js')}}"></script>
 
 
     <!-- Global Settings -->
-    <script src="assets/js/settings.js"></script>
+    <script src="{{asset('assets/js/settings.js')}}"></script>
 
     <!-- Moment.js -->
-    <script src="assets/vendor/moment.min.js"></script>
-    <script src="assets/vendor/moment-range.min.js"></script>
+    <script src="{{asset('assets/vendor/moment.min.js')}}"></script>
+    <script src="{{asset('assets/vendor/moment-range.min.js')}}"></script>
 
     <!-- Chart.js -->
-    <script src="assets/vendor/Chart.min.js"></script>
+    <script src="{{asset('assets/vendor/Chart.min.js')}}"></script>
 
     <!-- UI Charts Page JS -->
-    <script src="assets/js/chartjs-rounded-bar.js"></script>
-    <script src="assets/js/chartjs.js"></script>
+    <script src="{{asset('assets/js/chartjs-rounded-bar.js')}}"></script>
+    <script src="{{asset('assets/js/chartjs.js')}}"></script>
 
     <!-- Chart.js Samples -->
-    <script src="assets/js/page.instructor-dashboard.js"></script>
+    <script src="{{asset('assets/js/page.instructor-dashboard.js')}}"></script>
 
     <!-- List.js -->
-    <script src="assets/vendor/list.min.js"></script>
-    <script src="assets/js/list.js"></script>
+    <script src="{{asset('assets/vendor/list.min.js')}}"></script>
+    <script src="{{asset('assets/js/list.js')}}"></script>
 
 
     <!-- App Settings (safe to remove) -->
