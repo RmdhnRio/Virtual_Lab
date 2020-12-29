@@ -28,3 +28,6 @@ Route::get('/dashboard', function () {
 Route::get('/laboratory', function () {
     return view('courses');
 });
+Route::get('/certificate', function () {
+    return view('certificate');
+});
